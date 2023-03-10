@@ -1,0 +1,23 @@
+{
+    "data": {
+        "tools": [
+            {
+                "id": "One",
+                "name": "How to work setInterva & setTimeOut?",
+                "description": "ChatGPT is a large language model developed by OpenAI that can generate human-like responses in a conversation."
+            },
+            {
+                "id": "Two",
+                "name": "What is JS & how it work on browser?",
+                "description": "Bard is an alternative developed by Google.",
+                "image": "https://i.blogs.es/7b41f4/google-bard/1366_2000.jpeg"
+            },
+            {
+                "id": "Three",
+                "name": "Debuging and fiexd topic...",
+                "description": "Bard is an alternative developed by Google.",
+                "image": "https://i.blogs.es/7b41f4/google-bard/1366_2000.jpeg"
+            }
+        ]
+    }
+}

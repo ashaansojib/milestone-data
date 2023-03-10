@@ -1,0 +1,9 @@
+{
+    "data": {
+        "id": "01",
+        "tool_name": "ChatGPT",
+        "description": "ChatGPT is an AI-powered chatbot platform that uses OpenAI's GPT technology to simulate human conversation.",
+        "website": "https://openai.com/",
+        "logo": "https://cdn.openai.com/research-covers/gpt-3-social.jpg"
+    }
+}
