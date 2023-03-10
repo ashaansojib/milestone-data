@@ -1,9 +1,9 @@
 {
     "data": {
-        "id": "02",
-        "name": "Google Bard",
-        "description": "Bard is an alternative developed by Google.",
-        "image": "https://i.blogs.es/7b41f4/google-bard/1366_2000.jpeg",
-        "logo": "https://cdn.openai.com/research-covers/gpt-3-social.jpg"
+        "name" : "What is",
+        "info": null,
+        "describe": null,
+        "creator": "Ashaduzzaman Sojib",
+        "date": "11 March, 2023"
     }
 }
