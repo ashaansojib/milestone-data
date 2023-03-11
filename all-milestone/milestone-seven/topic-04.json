@@ -1,0 +1,8 @@
+{
+    "data" :{
+        "name": "About browser alert, confirm, prompt?",
+        "info": "TOPIC-1: alert muloto ekta browser api function ja kono kicu return korena. alart just ekta message hisbe kaj kore. TOPIC-2: confirm holo ekta method ja true false return kore. ata chaile true false er upor depend kore condition set kora jay. confirm function ta dia kono ekta value set kora jbe kono ekta jinish remove ba delete kora jbe. TOPIC-3: prompt er kaj pray same to confirm, prompt o duita jinish return kore but prompt user er kache theke kono ekta input ney tarpr sei in put take jodi user ok kore thle seta amdr ke dibe nahloe null return kore user dekhabe.",
+        "creator": "Ashaduzzaman Sojib",
+        "date": "11 March, 2023"
+    }
+}

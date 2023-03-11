@@ -19,14 +19,14 @@ const displayData = data =>{
 }
 // load data by id for showing modal
 const loadDetails = id =>{
-    const url = `/all-milestone/milestone-seven/module${id}.json`
+    const url = `/all-milestone/milestone-seven/topic-${id}.json`
     fetch(url)
     .then(res => res.json())
     .then(data=> displayDetails(data))
 }
 // modal area to show details
 const displayDetails = details =>{
-    console.log(details.data)
+    // console.log(details.data)
     const {name, info, describe, creator, date} = details.data;
     const container = document.getElementById("modal-area");
     container.textContent = '';
