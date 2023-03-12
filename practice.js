@@ -83,3 +83,22 @@ displayDataToLocalStorage()
 what is accessiblity and how it works?
 exproring full browser kana kuna?
 */
+1. map of javascript => kono ekta array of objects er sob gular property er man pete chaile map use kora jay. map muloto return kore.
+2. forEach of javaScript => kono ekta array of objects er mal loop kore ber korte chaile ba return dorkar na hole forEach use kora hoy.
+3. filter of javaScript => filter jekono ekta condition use kore fullfill hole . jara jara ai condition full korbe seglake return korbe. filter er condition jar shate milbe sei pura object take full return korbe. filter a includes use kore serach query calano jay.
+4. find of javaScript => find method khuje jar shate mathc khabe tader mddhe prothomei jake pabe take return korbe.
+5. array destructuring => destructuring hosce kono ekta arry ba objects theke sorasori man nia asi use kora. bame array thkle dane array dia access korte hbe r jdi object hy thle dane objects dite hbe.
+6. mixed collabrate => kno ekta objects k JSON a convert korte gele sei objects take JSON.stringify korte hbe. abar jodi sei objects k user korar dorkr hy thle JSON.parse kore sei object k ager rupe ana jbe. 
+7. fetch of javascript => 
+*/
+       const brands = [
+        {name: "laptop", brand: "dell", price: "52000", color: "golden"},
+        {name: "mobile", brand: "samsung", price: "5200", color: "red"},
+        {name: "watch", brand: "sky", price: "5000", color: "blue"},
+        {name: "pencill", brand: "power", price: "4000", color: "white"}
+       ]
+    //    const products = brands.map(product => product.name)
+    //    brands.forEach( product => (product.price))
+    //    const prices = brands.filter( brand => brand.price >= 5200);
+    //    const brand = brands.filter(product => product.name.includes("l"))
+// const products = brands.find(product => product.name.includes("n"))
