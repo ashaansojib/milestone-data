@@ -77,3 +77,9 @@ const displayDataToLocalStorage = () =>{
     }
 }
 displayDataToLocalStorage()
+
+
+/*
+what is accessiblity and how it works?
+exproring full browser kana kuna?
+*/
