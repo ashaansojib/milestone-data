@@ -82,7 +82,6 @@ displayDataToLocalStorage()
 /*
 what is accessiblity and how it works?
 exproring full browser kana kuna?
-*/
 1. map of javascript => kono ekta array of objects er sob gular property er man pete chaile map use kora jay. map muloto return kore.
 2. forEach of javaScript => kono ekta array of objects er mal loop kore ber korte chaile ba return dorkar na hole forEach use kora hoy.
 3. filter of javaScript => filter jekono ekta condition use kore fullfill hole . jara jara ai condition full korbe seglake return korbe. filter er condition jar shate milbe sei pura object take full return korbe. filter a includes use kore serach query calano jay.
@@ -90,6 +89,26 @@ exproring full browser kana kuna?
 5. array destructuring => destructuring hosce kono ekta arry ba objects theke sorasori man nia asi use kora. bame array thkle dane array dia access korte hbe r jdi object hy thle dane objects dite hbe.
 6. mixed collabrate => kno ekta objects k JSON a convert korte gele sei objects take JSON.stringify korte hbe. abar jodi sei objects k user korar dorkr hy thle JSON.parse kore sei object k ager rupe ana jbe. 
 7. fetch of javascript => 
+8. truthy and falsy => falsy example - 
+summery:
+1. declare variable
+2. all condition => <, >, ===, !==, <=, >=, &&, ||, else if, if
+3. array => array delaray, length, index, pop, push, shift, unshift, indexOf, includes etc.
+4. for loop, while
+5, function return , perameter,
+6. object property, includes array, objects
+7. template string
+8. spread operator,
+9. use filter to remove one item of an array
+10. arrow function with no peramiter, single peramiter, multiple peramiter, 
+11. destructuring object, and array
+12. objects declation shorthand
+13. function peramiter default value
+14. browser api: localStorage ans sessionStorage, location API, history API
+15. array of map, forEach, filter, find
+16. ternary operator with logical operator.
+17, fetch and optional chaning
+18. JSON (stringify, parse)
 */
        const brands = [
         {name: "laptop", brand: "dell", price: "52000", color: "golden"},
