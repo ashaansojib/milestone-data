@@ -2,8 +2,7 @@
     "data": {
         "title": "The Most Important List For React...",
         "name": "What is setInverval or setTimeOut & How it work?",
-        "info": ["1. declare variable", "2. all condition => <, >, ===, !==, <=, >=, &&, ||, else if, if", "3. array => array delaray, length, index, pop, push, shift, unshift, indexOf, includes etc."],
-        "describe": "On The Other Hand, setTimeout জাভাস্ক্রিপ্টে একটি বিল্ট-ইন ফাংশন যা সেট করা টাইমারের মাধ্যমে কোডের কিছু অংশকে একটি দীর্ঘস্থায়ী কাজ সম্পাদনের জন্য সেট করে। এটি স্থগিত সময় পরে কোড ব্লকের অংশটি এক্সিকিউট করে। setTimeout একটি টাইমার সেট করে, যা একটি ফাংশন এবং সময় দুটি প্যারামিটার গ্রহণ করে। ফাংশনটি সেট করা সময় পরে চলবে এবং সেই সময়ে প্রথম প্যারামিটার হিসাবে সেট করা সময় পর কল হবে। সেকেন্ড প্যারামিটার টাইম ইন মিলিসেকেন্ড হিসাবে নেওয়া হয়। ",
+        "info": ["Declare variable", "for loop, while", "template string", "spread operator", "JSON (stringify, parse)", "function return , perameter", "fetch and optional chaning", "objects declation shorthand", "destructuring object, and array", "function peramiter default value", "array of map, forEach, filter, find", "ternary operator with logical operator", "object property, includes array, objects", "use filter to remove one item of an array", "all condition => <, >, ===, !==, <=, >=, &&, ||, else if, if", "arrow function with no peramiter, single peramiter, multiple peramiter", "browser api: localStorage ans sessionStorage, location API, history API", "array => array delaray, length, index, pop, push, shift, unshift, indexOf, includes etc."],
         "creator": "Ashaduzzaman Sojib",
         "date": "11 March, 2023"
     }
