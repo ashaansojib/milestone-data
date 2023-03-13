@@ -8,15 +8,20 @@ const displayCard = dataList => {
     // console.log(dataList.tools)
     const container = document.getElementById("card-container");
     dataList.tools.forEach(data => {
-        // console.log(data)
+        console.log(data)
         const {checkList, id} = data;
+        // fontend short decsription slice here
+        let info = data.info;
+        if(info.length > 80){
+            info = info.slice(0, 80);
+        }
         const createDiv = document.createElement("div");
         createDiv.classList.add("col-lg-4", "mb-2");
         createDiv.innerHTML = `
             <div class="card ">
                 <div class="card-body ">
                     <h5 class="card-title fs-2 text-primary">${checkList}</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">${info ? info : ''}</p>
                     <a href="#" onclick="loadDetail('${id}')" class="btn btn-primary">Show Details</a>
                 </div>
             </div>
@@ -32,13 +37,14 @@ const loadDetail = id =>{
     .then(res => res.json())
     .then(data=> fullArticle(data))
 }
-// display total content in body
+// display total a content in body
 const fullArticle = details =>{
     console.log(details.data)
     const container = document.getElementById("card-container");
     document.getElementById("post-title").style.display = 'none';
     container.textContent = '';
-    const information = details.data.info.map(info => (`<li>${info}</li>`)).join(' ');
+    const information = details.data.info?.map(info => (`<li>${info}</li>`)).join(' ');
+    const explains = details.data.explains?.map(explains => (`<li class="py-2">${explains}</li>`)).join(' ');
     const {name, title, creator, date} = details.data;
 
     const createDiv = document.createElement("div");
@@ -49,7 +55,8 @@ const fullArticle = details =>{
     createDiv.innerHTML = `
     <p class="d-flex justify-content-between"><span>Author: ${creator}</span> <span> Date: ${date}</span></p>
     <h2 class="blog-heading">${title}</h2>
-    <ol>${information}</ol>
+    <ol>${information ? information : ''}</ol>
+    <p>${explains ? explains : ''}</p>
     `;
     container.appendChild(createDiv)
 }

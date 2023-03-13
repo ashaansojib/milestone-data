@@ -3,19 +3,23 @@
         "tools": [
             {
                 "id": "01",
-                "checkList": "Important List"
+                "checkList": "Important List for React",
+                "info": "Explaination of this topic click to show details on details buttons read more..."
             },
             {
                 "id": "02",
-                "name": "What is JS & how it work on browser?"
+                "checkList": "map, filter, forEach, Find",
+                "info": "In this article we will talk to about some basic important topic in JavaScript. You must know about map, filter, find, forEach etc..."
             },
             {
                 "id": "03",
-                "name": "Debuging and fiexd topic..."
+                "checkList": "All About Array Methods",
+                "info": "how are you my love"
             },
             {
                 "id": "04",
-                "name": "How to work setInterva & setTimeOut?"
+                "checkList": "How to work setInterva & setTimeOut?",
+                "info": "im fine bro"
             }
         ]
     }
